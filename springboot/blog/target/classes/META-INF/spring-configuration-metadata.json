@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "upload.oss",
+      "type": "com.mxx910.blog.config.properties.OssProperties",
+      "sourceType": "com.mxx910.blog.config.properties.OssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "upload.oss.access-key-id",
+      "type": "java.lang.String",
+      "description": "访问密钥id",
+      "sourceType": "com.mxx910.blog.config.properties.OssProperties"
+    },
+    {
+      "name": "upload.oss.access-key-secret",
+      "type": "java.lang.String",
+      "description": "访问密钥密码",
+      "sourceType": "com.mxx910.blog.config.properties.OssProperties"
+    },
+    {
+      "name": "upload.oss.bucket-name",
+      "type": "java.lang.String",
+      "description": "bucket名称",
+      "sourceType": "com.mxx910.blog.config.properties.OssProperties"
+    },
+    {
+      "name": "upload.oss.endpoint",
+      "type": "java.lang.String",
+      "description": "终点",
+      "sourceType": "com.mxx910.blog.config.properties.OssProperties"
+    }
+  ],
+  "hints": []
+}
